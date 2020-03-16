@@ -19,7 +19,7 @@ It will fallback to Audio Element in other browsers (without graphics). You can 
 Yes, if you use the `backend: 'MediaElement'` option. See here: https://wavesurfer-js.org/example/audio-element/. The audio will start playing as you press play. A thin line will be displayed until the whole audio file is downloaded and decoded to draw the waveform.
 
 ### Can drawing be done as file loads?
-No. Web Audio needs the whole file to decode it in the browser. You can however load pre-decoded waveform data to draw the waveform immediately. See here: https://wavesurfer-js.org/example/audio-element/ (the "Pre-recoded Peaks" section).
+No. Web Audio needs the whole file to decode it in the browser. You can, however, load pre-decoded waveform data to draw the waveform immediately. See here: https://wavesurfer-js.org/example/audio-element/ (the "Pre-recorded Peaks" section).
 
 ## API in examples
 
